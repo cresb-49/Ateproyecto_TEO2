@@ -1,20 +1,59 @@
 <mxfile host="65bd71144e">
     <diagram id="w7PpwXma92jSt-qKF4Y0" name="Page-1">
-        <mxGraphModel dx="988" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="823" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="3" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="130" y="447.5" width="40" height="60" as="geometry"/>
+                    <mxGeometry x="120" y="442.51" width="40" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.monitor;" vertex="1" parent="1">
-                    <mxGeometry x="240" y="445" width="80" height="65" as="geometry"/>
+                    <mxGeometry x="230" y="440" width="80" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.web_server;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="420" width="105" height="105" as="geometry"/>
+                    <mxGeometry x="380" y="420" width="105" height="105" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" vertex="1" parent="1">
-                    <mxGeometry x="680" y="436.25" width="72.5" height="72.5" as="geometry"/>
+                    <mxGeometry x="710" y="436.25" width="72.5" height="72.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.nfvo;" vertex="1" parent="1">
+                    <mxGeometry x="550.01" y="426.88" width="91.25" height="91.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Usuario" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="511.88" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Cliente" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="511.88" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Servidores CUNOC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="373.75" y="535" width="117.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="REST API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="536.88" y="520" width="117.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="DATABASE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="687.5" y="511.88" width="117.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.bacula.lat/wp-content/uploads/2019/05/postgresql-logo.png;" vertex="1" parent="1">
+                    <mxGeometry x="704.06" y="342.5" width="84.38" height="93.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:1200/1*-MB21TRR4idpnhYhuu-wOw.png;" vertex="1" parent="1">
+                    <mxGeometry x="515.34" y="329.51" width="160.59" height="90.49" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://lenguajejs.com/vuejs/introduccion/que-es-vue/vuejs.png;" vertex="1" parent="1">
+                    <mxGeometry x="197.78" y="380" width="144.44" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
