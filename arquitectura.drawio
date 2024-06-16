@@ -1,0 +1,22 @@
+<mxfile host="65bd71144e">
+    <diagram id="w7PpwXma92jSt-qKF4Y0" name="Page-1">
+        <mxGraphModel dx="988" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="447.5" width="40" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.monitor;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="445" width="80" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.web_server;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="420" width="105" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="436.25" width="72.5" height="72.5" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
